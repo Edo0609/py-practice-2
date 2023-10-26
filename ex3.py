@@ -28,6 +28,10 @@ print("The computer chose: " + computer_choice)
 # continue this if statement to print out the winner
 if user_choice == computer_choice:
   print("It's a tie!")
+elif (user_choice == 'rock' and computer_choice == 'scissors') or (user_choice == 'paper' and computer_choice == 'rock') or (user_choice == 'scissors' and computer_choice == 'paper'):
+  print ("You Win!")
+else:
+  print ("You Lose!")
 # write stuff here
 # rock beats scissors
 # paper beats rock
